@@ -1,0 +1,48 @@
+/* Diseño general del Centro de Belleza*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8fa;
+    color: #333;
+}
+
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+/* Títulos generales */
+
+h1, h2, h3 {
+    color: #9b5475;
+}
+
+/* Imágenes */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Diseño adaptable */
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+
+    section {
+        padding: 25px 15px;
+    }
+}
